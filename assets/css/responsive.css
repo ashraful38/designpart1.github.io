@@ -1,0 +1,75 @@
+@media all and (min-width: 769px){
+	.logo a i{
+		display: none;
+	}
+	.header_menu ul{
+		display: flex !important;
+	}
+
+}
+@media all and (max-width: 768px){
+	.header_area {
+		padding: 3.5rem 0 7rem 0;
+	}
+	.header_menu ul{
+		position: absolute;
+		flex-direction: column;
+		display: none;
+		text-align: center;
+		margin: 1rem 0;
+		z-index: 99;
+		width: 100%;
+		position: relative;
+
+	}
+	.header_menu ul li a{
+		padding: 1rem 0;
+		color: #fff !important;	
+
+	}
+	.header_menu ul li a:hover{
+		background-color: #9B59B6;
+	}
+	.header_content h1{
+		padding: 10rem 0 2rem 0;
+	}
+	.logo {
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+		max-width: 90%;
+	}
+	.header_content a {
+		transform: translateY(172.2%);
+	}
+	.max-w{
+		max-width: 100%;
+	}
+}
+@media all and (max-width: 567px){
+	.header_content a {
+		transform: translateY(166.2%);
+	}
+	h1{
+		font-size: 4.3rem;
+	}
+	h2{
+		font-size: 3.1rem;
+	}
+	.services_area {
+		padding: 10rem 0 4rem 0;
+	}
+	.footer_menu ul{
+		flex-direction: column;
+	}
+	.footer_menu ul li{
+		margin-bottom: 2rem;
+	}
+	.footer_buttom{
+		max-width: 90%;
+		margin: auto;
+	}
+	.footer_buttom ul li{
+		font-size: 2rem;
+	}
+}
